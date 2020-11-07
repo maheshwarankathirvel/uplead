@@ -1,0 +1,431 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+    height:9vh;
+}
+.logl{
+    margin-left:9%;
+}
+.btn{
+    border-radius:3rem;
+    font-size:1rem;
+    font-weight: bolder;
+}
+.h1_align,.h2_align{
+    font-weight: 900;
+    margin-left:10.5rem;
+    font-size:45px;
+}
+.header{
+    margin-top: 10%;
+}
+.head_content{
+    margin-left:11rem;
+    font-weight: lighter;
+    margin-top:2rem;
+    color:grey;
+}
+.trail{
+    margin-left:10.5rem;
+    font-size: 1rem;
+}
+.demo{
+    text-decoration-color: darkgrey;
+    margin-left:1rem;
+    color:darkgrey;
+}
+.h5_align{
+    color:darkgrey;
+    margin-left:11rem;
+    margin-top:4rem;
+}
+.company{
+    margin-left:11rem;
+}
+.head_img{
+    height:70vh;
+    margin-left:19rem;
+    margin-top:7rem;
+}
+.case_img{
+    height:50vh;
+    margin-left:10rem;
+    margin-top:15rem;
+}
+.case_content{
+    margin-top:17rem;
+    margin-left:3rem;
+    margin-right:3rem;
+}
+.case_head{
+    color:rgb(37, 129, 190);
+    font-size:30px;
+}
+.case_desc{
+    font-size:40px;
+    font-weight:bolder;
+}
+.case_but{
+    margin-top:1rem;
+}
+.info_uplead{
+    margin-top:15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info_head,.rate_content{
+    font-size:35px;
+}
+.content_uplead{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box1_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:darkgrey;
+}
+.contact_search,.about_data{
+    margin-left:4%;
+    margin-top:2rem;
+}
+.rating{
+    margin-top:20rem;
+    margin-left:43rem;
+}
+.rate-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rate_desc{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+.review_imge{
+    margin-top:5rem;
+    margin-left:18rem;
+}
+.rev{
+    font-weight: normal;
+}
+.review_button{
+    display:flex;
+    flex-direction: row;
+    margin-top: 6rem;
+    margin-left:35rem ;
+}
+.sales_head{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+    font-size:40px;
+}
+.sales_desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+.sales_learn{
+    margin-left:4rem;
+}
+.sales_learns{
+    margin-left:3rem;
+}
+.integ_head{
+    margin-top:15rem;
+    margin-left:12rem;
+}
+.integ_desc{
+    margin-left:12rem;
+    color:darkgrey;
+    margin-top:1rem;
+}
+.integ_btn{
+    display: flex;
+    margin-left: 12rem;
+    margin-top:1.5rem;
+}
+.integ_imge{
+    height:80vh;
+}
+.api_imge{
+    height:60vh;
+}
+.api_block{
+    margin-top:10rem;
+    margin-left:5rem;
+}
+.uplead_imgblk{
+    margin-left:16rem;
+}
+.uplead_block{
+    display:flex;
+    margin-top:10rem;
+}
+.feature_imge{
+    background-color: rgb(13, 134, 150);
+    height:80vh;
+}
+.feature_block{
+    display:flex;
+    margin-top:18rem;
+}
+.feature_header,.feature_button{
+    margin-left:10rem;
+}
+.feature_content{
+    margin-top:15rem;
+}
+.feature_desc{
+    margin-top:1rem;
+    color:grey;
+}
+.feature_button{
+    margin-top: 1.5rem;
+}
+.good_company{
+    margin-top: 10rem;
+}
+.good_companyimge{
+    margin-left:10rem;
+    margin-top:4rem;
+}
+.today_imge{
+    height:60vh;
+}
+.today_block{
+    display: flex;
+    margin-top:18rem;
+    justify-content: space-around;
+    background-color:rgb(13, 134, 150) ;
+}
+.today_head,.today_desc{
+    color:white;
+}
+.today_main{
+    margin-left: 9rem;
+}
+.today_header{
+    margin-top:5rem;
+}
+li{
+    list-style: none;
+    line-height: 2.5rem;
+}
+.foot_block{
+    display:flex;
+    margin-left:10%;
+    margin-top:5rem;
+}
+.head_bl{
+    font-weight: bolder;
+    color:black;
+}
+.card1_align{
+    display:flex;
+    margin-left:16rem;
+}
+.ratcard_align,.salcard_align{
+    display:flex;
+    margin-left:9rem;
+}
+.gr_cl{
+    color:grey;
+}
+.nav_btalign{
+    margin-left:14rem;
+}
+.main_align{
+    display: flex;
+}
+.integ{
+    display: flex;
+}
+/* html,body{
+    width:100%;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    overflow-x: hidden;
+} */
+
+@media screen and (max-width:500px){
+    .h1_align,.h2_align{
+        font-size: 18px;
+        margin-left:25%;
+    }
+    .head_content{
+        font-size:9px;
+        margin-left:13%;
+        margin-top: 3%;
+    }
+    .bt1_ali{
+        margin-left: 6%;
+    }
+    .trail{
+        margin-left:4%;
+    }
+    .h5_align{
+        margin-left:35%;
+    }
+    .company{
+        display: none;
+    }
+    .main_align{
+        flex-direction:column ;
+    }
+    .head_img{
+        margin-left:2%;
+        margin-top:3%;
+    }
+    .case_fl{
+        margin-top:2%;
+        flex-direction: column-reverse;
+    }
+    .case_img{
+        margin-top:4%;
+        margin-left:6%;
+    }
+    .case_head{
+        font-size:20px;
+    }
+    .case_desc{
+        font-size:15px;
+    }
+    .info_head{
+        font-size:15px;
+    }
+    .info_uplead{
+        margin-top:18%;
+    }  
+    .content_uplead{
+        font-size:10px;
+    }
+    .card1_align{
+        flex-direction: column;
+        margin-left:3%;
+    }
+    .contact_search,.about_data{
+        width:250px;
+        height:350px;
+    }
+    .carde3{
+        font-size:8px;
+    }
+    .rating{
+        margin-left:33%;
+        margin-top:10%;
+    }
+    .rate_content{
+        font-size:18px;
+    }
+    .rate_desc{
+        font-size:11px;
+    }
+    .ratcard_align{
+        flex-direction: column;
+        margin-left:1%;
+    }
+    .review_imge{
+        display: none;
+    }
+    .review_button{
+        margin-left:6%;
+    }
+    .sales_head{
+        margin-top: 15%;
+    }
+    .sales_content{
+        font-size:18px;
+    }
+    .sales_desc{
+        font-size:9px;
+    }
+    .salcard_align{
+        flex-direction: column;
+        margin-left: 1%;
+    }
+    .box1_content{
+        font-size: 13px;
+    }
+    .integ{
+        flex-direction: column;
+        margin-top: 2%;
+        margin-left:1%;
+    }
+    .integ_head{
+        margin-left:20% ;
+    }
+    .integ_desc{
+        font-size:10px;
+        margin-left: 3%;
+    }
+    .integ_btn{
+        margin-left: 1%;
+    }
+    .integ_imge{
+        margin-top:19%;
+    }
+    .uplead_block,.feature_block{
+        flex-direction: column-reverse;
+        margin-top: 1%;
+    }
+    .api_desc{
+        font-size:12px;
+        margin-left:1%;
+    }
+    .int2{
+        margin-top: 2rem;
+    }
+    .uplead_imgblk{
+        margin-top: 13%;
+        margin-left: 13%;
+    }
+    .feature_header{
+        margin-left: 3%;
+    }
+    .feature_head{
+        font-size:18px;
+        margin-left:20%;
+    }
+    .feature_desc{
+        font-size: 11px;
+        margin-top: 5%;
+        margin-left:3%;
+    }
+    .feature_imge{
+        margin-top: 14%;
+    }
+    .feature_button{
+        margin-left: 4%;
+    }
+    .good_companyimge{
+        display: none;
+    }
+    .today_block{
+        flex-direction: column;
+    }
+    .today_main{
+        margin-left: 13%;
+    }
+    .today_desc{
+        font-size:10px;
+    }
+    .foot_block{
+        flex-direction: column;
+    }
+    .lifl{
+        flex-direction: column;
+        margin-left: 1%;
+    }
+}
