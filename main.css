@@ -302,6 +302,10 @@ html,body{
     .case_desc{
         font-size:15px;
     }
+    .case_img{
+        width: 50vh;
+        height:30vh;
+    }
     .info_head{
         font-size:15px;
     }
