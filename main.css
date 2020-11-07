@@ -305,6 +305,7 @@ html,body{
     .case_img{
         width: 50vh;
         height:30vh;
+        margin-left:1%;
     }
     .info_head{
         font-size:15px;
